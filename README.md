@@ -1,7 +1,7 @@
-# Curso de
+## Curso de
 # WebSockets: implemente comunicações em tempo real com Socket.IO e MongoDB
 
-<img src="/logos/socket.io.png" alt="Logo Socket.IO" widht="120" height="80"> <img src="JavaScript.png" alt="Logo JavaScript" widht="80" height="80"> <img src="html5.png" alt="Logo HTML" widht="80" height="80"> <img src="VS Code.png" alt="Logo VS Code" widht="80" height="80">
+<img src="/logos/socket.io.png" alt="Logo Socket.IO" widht="110" height="70"> <img src="/logos/JavaScript.png" alt="Logo JavaScript" widht="70" height="70"> <img src="/logos/html5.png" alt="Logo HTML" widht="70" height="70"> <img src="/logos/VS Code.png" alt="Logo VS Code" widht="70" height="70">
 
 -------
 
@@ -9,7 +9,7 @@
 This training is part of [Training Node.js with Express](https://cursos.alura.com.br/formacao-node-js-express) and addresses the WebSocket protocol, where we will learn to implement communications and store data in realtime with Socket.IO and MongoDB.
 Socket.IO is a library that enables low-latency, bidirectional and event-based communication between a client and a server.
 
-## Objetivos deste treinamento:
+## Objectives of this training:
 + Implementar comunicações em tempo real com o protocolo WebSockets;
 + Utilizar a biblioteca Socket.IO para maior facilidade de desenvolvimento;
 + Integrar o Front-end e o Back-end do projeto;
@@ -33,7 +33,7 @@ Socket.IO is a library that enables low-latency, bidirectional and event-based c
 + Escutar o evento de conexão do cliente:
   + Utilizamos o **método io.on()**, que recebe como primeiro parâmetro o nome do evento (por exemplo, “connection”) e como segundo parâmetro uma função callback, que será executada assim que o evento for escutado.
 
-2. Trabalhando com Socket.IO
+## 2. Trabalhando com Socket.IO
 **Habilidades desenvolvidas neste tópico:**
 + Emitir seu primeiro evento a partir do cliente:
   + No front-end, utilizamos socket.emit() para emitir o evento "texto_editor" para o servidor, junto com o texto que foi digitado.
@@ -42,7 +42,7 @@ Socket.IO is a library that enables low-latency, bidirectional and event-based c
 + Organizar melhor os arquivos por responsabilidade:
   + No front-end, deixamos um arquivo responsável por lidar com as manipulações do HTML (documento.js) e outro responsável para lidar com as funções do Socket.IO (socket-front-documento.js).
 
-3. Avançando na comunicação
+## 3. Avançando na comunicação
 **Habilidades desenvolvidas neste tópico:**
 + Agrupar clientes em salas do Socket.IO:
   + Utilizamos o método join() (do inglês “juntar”) para isso, passando como parâmetro o nome da sala na qual queremos colocar o cliente. No nosso caso, os nomes das salas eram os nomes dos documentos.
@@ -51,9 +51,9 @@ Socket.IO is a library that enables low-latency, bidirectional and event-based c
 + Enviar um dado de volta para o cliente com Reconhecimento:
   + Utilizamos esse recurso quando o cliente emite um evento e espera receber dados de volta do servidor, imitando o modelo de requisição-resposta do HTTP. Para tal, passamos uma função como último parâmetro de emit(), a obtemos na função callback do lado do servidor e a executamos, passando como parâmetro o dado que interessa ao cliente.
 
-4. Utilizando o MongoDB
+## 4. Utilizando o MongoDB
 **Habilidades desenvolvidas neste tópico:**
 
 
-5. Avançando o SeSoDocs
+## 5. Avançando o SeSoDocs
 **Habilidades desenvolvidas neste tópico:**
