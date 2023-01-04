@@ -1,7 +1,7 @@
 ## Curso de
 # WebSockets: implemente comunicações em tempo real com Socket.IO e MongoDB
 
-<img src="/logos/socket.io.png" alt="Logo Socket.IO" widht="110" height="70"> <img src="/logos/JavaScript.png" alt="Logo JavaScript" widht="70" height="70"> <img src="/logos/html5.png" alt="Logo HTML" widht="70" height="70"> <img src="/logos/VS Code.png" alt="Logo VS Code" widht="70" height="70">
+<img src="/logos/socket.io.png" alt="Logo Socket.IO" widht="100" height="70"> <img src="/logos/JavaScript.png" alt="Logo JavaScript" widht="70" height="70"> <img src="/logos/html5.png" alt="Logo HTML" widht="70" height="70"> <img src="/logos/NodeJS.png" alt="Logo NodeJS" widht="90" height="70"> <img src="/logos/mongoDB-atlas.png" alt="Logo MongoDB-atlas" widht="100" height="70"> <img src="/logos/VS Code.png" alt="Logo VS Code" widht="70" height="70">
 
 -------
 
