@@ -71,7 +71,7 @@ Socket.IO is a library that enables low-latency, bidirectional and event-based c
 + Atualizar diferentes páginas a partir do mesmo evento:
   * A partir do evento de exclusão emitido pelo servidor, realizamos diferentes operações dependendo de qual página o cliente está. Quem estiver na página do documento excluído será redirecionado para a página inicial, e quem estiver na página inicial verá o documento ser excluído da lista.
 
-  ## Conclusão
+## Conclusão
 Implementar o protocolo WebSockets com a biblioteca Socket.IO:
 Em contraste com o HTTP, o protocolo WebSockets com a biblioteca Socket.IO, possui algumas vantagens, como a comunicação em tempo real. Além disso, a biblioteca Socket.IO é responsável por várias tratativas de erros, de modo que não precisamos nos preocupar muito no desenvolvimento.
 Explorar as possibilidades do Socket.IO:
