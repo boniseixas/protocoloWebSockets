@@ -5,6 +5,19 @@
 
 -------
 
+## Links úteis:
++ [Protocolo Web Sockets > biblioteca Socket.IO](https://socket.io/pt-br/docs/v4/server-api/#o-que-o-socketio-n%C3%A3o-%C3%A9) permite que trabalhemos com o protocolo WebSockets de forma mais facilitada.
++ [Integrating Socket.IO](https://socket.io/pt-br/get-started/chat) faz a conexão do front-end com o servidor.
++ [A documentação na MDN](https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API) fornece mais detalhes sobre o protocolo e como você pode escrever aplicações WebSockets utilizando JavaScript puro.
++ [Socket.IO](https://socket.io/pt-br/docs/v4/) é uma biblioteca que permite baixa-latência, bidirecional e baseado em eventos de comunicação entre cliente e um servidor.
++ [Documentação do JSON.stringify()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify) mostra quais tipos de dados podem ser serializados.
++ [A classe URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams), pode ser instanciada para criar um objeto que conterá informações da URL.
++ [Seção Rooms do Socket.IO](https://socket.io/docs/v4/rooms/).
++ [A documentação do MongoDB Node Driver](https://www.mongodb.com/docs/drivers/node/current/) mostra como configurar um projeto com MongoDB Atlas, utilizando MongoDB Node Driver.
++ [Seção "Quick Start"](https://www.mongodb.com/docs/drivers/node/current/quick-start/).
++ [Seção CRUD Operations](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/) explica os métodos findOne, insertOne, deleteOne, etc..., do mongo DB.
++ [Seção Access Data From a Cursor da documentação do mongo DB](https://www.mongodb.com/docs/drivers/node/current/fundamentals/crud/read-operations/cursor/).
+
 ## Introduction
 This training is part of [Training Node.js with Express](https://cursos.alura.com.br/formacao-node-js-express) and addresses the WebSocket protocol, where we will learn to implement communications and store data in realtime with Socket.IO and MongoDB.
 Socket.IO is a library that enables low-latency, bidirectional and event-based communication between a client and a server.
@@ -72,11 +85,13 @@ Socket.IO is a library that enables low-latency, bidirectional and event-based c
   * A partir do evento de exclusão emitido pelo servidor, realizamos diferentes operações dependendo de qual página o cliente está. Quem estiver na página do documento excluído será redirecionado para a página inicial, e quem estiver na página inicial verá o documento ser excluído da lista.
 
 ## Conclusão
-Implementar o protocolo WebSockets com a biblioteca Socket.IO:
-Em contraste com o HTTP, o protocolo WebSockets com a biblioteca Socket.IO, possui algumas vantagens, como a comunicação em tempo real. Além disso, a biblioteca Socket.IO é responsável por várias tratativas de erros, de modo que não precisamos nos preocupar muito no desenvolvimento.
-Explorar as possibilidades do Socket.IO:
-Começamos aprendendo como o servidor emite eventos para um ou vários clientes, como o cliente emite para o servidor e como escutar esses eventos. Descobrimos que, quando o servidor emite para um único cliente, podemos usar o recurso de reconhecimentos (acknowledgements), que imita o modelo de requisição e resposta do HTTP.
-Já quando a emissão é para vários clientes, temos algumas possibilidades: emitir para todos os clientes (exceto o que está em um determinado socket) ou emitir para clientes em uma determinada sala do Socket.IO, um conceito importante dessa biblioteca. Nós podemos agrupar diversos clientes em uma determinada sala para ter um melhor gerenciamento e essa estratégia funcionou bem para os nossos documentos no Alura Docs.
-Também exploramos a interação do servidor com diversas páginas do front-end. Por exemplo, quando o servidor emite um evento para todos os clientes, dependendo da página em que o cliente está, podemos escutar esse evento e fazer uma determinada ação.
-Mais adiante, aplicamos conceitos de front-end e de back-end. Se este foi o seu primeiro contato com front-end, espero que você tenha gostado e aproveitado todas as interações que fizemos.
+Implementar o protocolo WebSockets com a biblioteca Socket.IO:<br>
+Em contraste com o HTTP, o protocolo WebSockets com a biblioteca Socket.IO, possui algumas vantagens:
+  + comunicação em tempo real,
+  + a biblioteca Socket.IO é responsável por várias tratativas de erros, o que facilita o desenvolvimento.
+Explorar as possibilidades do Socket.IO.<br>
+Começamos aprendendo como o servidor emite eventos para um ou vários clientes, como o cliente emite para o servidor e como escutar esses eventos. Descobrimos que, quando o servidor emite para um único cliente, podemos usar o recurso de reconhecimentos (acknowledgements), que imita o modelo de requisição e resposta do HTTP.<br>
+Já quando a emissão é para vários clientes, temos algumas possibilidades: emitir para todos os clientes (exceto o que está em um determinado socket) ou emitir para clientes em uma determinada sala do Socket.IO, um conceito importante dessa biblioteca. Nós podemos agrupar diversos clientes em uma determinada sala para ter um melhor gerenciamento e essa estratégia funcionou bem para os nossos documentos no Alura Docs.<br>
+Também exploramos a interação do servidor com diversas páginas do front-end. Por exemplo, quando o servidor emite um evento para todos os clientes, dependendo da página em que o cliente está, podemos escutar esse evento e fazer uma determinada ação.<br>
+Mais adiante, aplicamos conceitos de front-end e de back-end. Se este foi o seu primeiro contato com front-end, espero que você tenha gostado e aproveitado todas as interações que fizemos.<br>
 Por fim, aprendemos a usar o Driver do Node.js do MongoDB, uma forma interessante de conectar nossa interação com o MongoDB Atlas. Estudamos como utilizar os métodos internos do MongoDB e conseguimos persistir os dados de forma segura.
